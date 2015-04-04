@@ -1,0 +1,132 @@
+/*Authors:Group 9 Members*/
+body{
+		background: PowderBlue;
+}
+
+.hotspot{
+	text-decoration:underline;
+	color:firebrick;
+	cursor:pointer
+}
+.status{
+	background-color:yellow
+	
+}
+.error{
+	color:Red;
+	background-color:Yellow
+}
+
+.menuitem {
+	text-decoration:bold;
+	text-decoration:underline;
+	color:midnightblue;
+	font-size:large;
+	cursor:hand;
+	padding-top:0.1cm;
+	padding-bottom:0.1cm;
+}
+.menuitem:hover{
+	text-decoration:underline;
+	cursor:hand;
+	font-weight:bold;
+	background-color:Silver
+}
+
+#pageheader
+{
+    height: 1.2in;
+    font-size: 300%;
+	text-align: center;
+	color:white;
+	text-shadow:1.5px 1.5px  white; 
+	background-image :url('health2.jpg');
+	background-repeat:no-repeat;
+	background-color: rgb(61, 84, 158);
+	display: block;
+	margin: 8px;
+}
+
+#mainnav{
+	width:2in;
+	vertical-align:top
+}
+
+
+#content {
+	width:10in;
+	vertical-align:top
+	
+}
+
+.reportTable 
+{
+    border:1px;
+    border-collapse:collapse;
+}
+
+.reportTable .header
+{
+    background-color: rgb(137, 147, 179);
+    text-transform: uppercase;
+    color: White;
+	width:1in;
+}
+
+.reportTable .row1
+{
+    background-color: rgb(171, 183, 221);
+	color:brown
+}
+
+.reportTable .row2
+{
+    background-color:aliceblue;
+	color:brown
+}
+
+.reportTable tr:hover
+{
+    background-color:khaki
+}
+.tableForm .field{
+    
+	background-color:aliceblue
+}
+.tableForm .label
+{
+	background-color: PowderBlue);
+    text-transform: uppercase;
+    color: White;
+}
+.popupMenu
+{
+    background-color: PowderBlue;
+    position: absolute;
+    display:none;
+    width: auto;
+}
+
+.popupMenu div
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.popupMenu div:hover
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+    background-color: #CC6600;
+}
+
+.popupForm
+{
+     background-color: CadetBlue;
+    position: absolute;
+    display:none;
+    width: auto;
+}
+
+
+
